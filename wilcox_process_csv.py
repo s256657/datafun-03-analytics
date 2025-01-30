@@ -1,5 +1,5 @@
 """
-Process a CSV file on the Titanic passengers by age and fare amount
+Process a CSV file on the Titanic passengers by fare amount
 """
 
 #####################################
@@ -25,8 +25,8 @@ processed_folder_name: str = "wilcox_data_processed"
 # Define Functions
 #####################################
 
-def analyze_ladder_score(file_path: pathlib.Path) -> dict:
-    """Analyze the Ladder score column to calculate min, max, mean, and stdev."""
+def analyze_fare(file_path: pathlib.Path) -> dict:
+    """Analyze the fare amount column to calculate min, max, mean, and stdev."""
     try:
         # initialize an empty list to store the scores
         score_list = []
@@ -35,11 +35,11 @@ def analyze_ladder_score(file_path: pathlib.Path) -> dict:
             dict_reader = csv.DictReader(file)  
             for row in dict_reader:
                 try:
-                    score = float(row["Ladder score"])  # Extract and convert to float
+                    score = float(row["fare"])  # Extract and convert to float
                     # append the score to the list
                     score_list.append(score)
                 except ValueError as e:
-                    logger.warning(f"Skipping invalid row: {row} ({e})")
+                    pass
         
         # Calculate statistics
         stats = {
@@ -55,14 +55,14 @@ def analyze_ladder_score(file_path: pathlib.Path) -> dict:
 
 def process_csv_file():
     """Read a CSV file, analyze Ladder score, and save the results."""
-    input_file = pathlib.Path(fetched_folder_name, "2020_happiness.csv")
-    output_file = pathlib.Path(processed_folder_name, "happiness_ladder_score_stats.txt")
+    input_file = pathlib.Path(fetched_folder_name, "titanic_original.csv")
+    output_file = pathlib.Path(processed_folder_name, "titanic_fare_stats.txt")
     
-    stats = analyze_ladder_score(input_file)
+    stats = analyze_fare(input_file)
     output_file.parent.mkdir(parents=True, exist_ok=True)
     
     with output_file.open('w') as file:
-        file.write("Ladder Score Statistics:\n")
+        file.write("Fare Statistics:\n")
         file.write(f"Minimum: {stats['min']:.2f}\n")
         file.write(f"Maximum: {stats['max']:.2f}\n")
         file.write(f"Mean: {stats['mean']:.2f}\n")

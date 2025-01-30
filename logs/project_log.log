@@ -69,3 +69,7 @@
 2025-01-30 15:31:09.527 | INFO     | __main__:write_txt_file:76 - Writing data to wilcox_data/solar_flares.txt...
 2025-01-30 15:31:09.529 | INFO     | __main__:write_txt_file:80 - SUCCESS: Data written to wilcox_data/solar_flares.txt
 2025-01-30 15:31:09.529 | INFO     | __main__:fetch_txt_file:56 - SUCCESS: Text file fetched and saved as solar_flares.txt
+2025-01-30 15:56:55.746 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-30 15:56:55.746 | INFO     | __main__:<module>:78 - Starting CSV processing...
+2025-01-30 15:56:55.752 | INFO     | __main__:process_csv_file:71 - Processed CSV file: wilcox_data/titanic_original.csv, Statistics saved to: wilcox_data_processed/titanic_fare_stats.txt
+2025-01-30 15:56:55.752 | INFO     | __main__:<module>:80 - CSV processing complete.

@@ -1,0 +1,5 @@
+Fare Statistics:
+Minimum: 0.00
+Maximum: 512.33
+Mean: 33.30
+Standard Deviation: 51.76
