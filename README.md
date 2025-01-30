@@ -1,6 +1,6 @@
 # datafun-03-analytics
 Pulling and working with data from web
-1. Initialize project
-    - no errors during initialization
-2. Create repeatable workflow
-    - no errors during repeatable workflow
+1. Initialized project
+2. Created repeatable workflow
+3. Test example get files provided
+4. Test example process files provided
