@@ -29,3 +29,19 @@
 2025-01-30 13:27:17.806 | INFO     | __main__:write_txt_file:76 - Writing data to example_data/romeo.txt...
 2025-01-30 13:27:17.807 | INFO     | __main__:write_txt_file:80 - SUCCESS: Data written to example_data/romeo.txt
 2025-01-30 13:27:17.807 | INFO     | __main__:fetch_txt_file:56 - SUCCESS: Text file fetched and saved as romeo.txt
+2025-01-30 13:42:36.890 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-30 13:42:36.908 | INFO     | __main__:<module>:78 - Starting CSV processing...
+2025-01-30 13:42:36.910 | INFO     | __main__:process_csv_file:71 - Processed CSV file: example_data/2020_happiness.csv, Statistics saved to: example_processed/happiness_ladder_score_stats.txt
+2025-01-30 13:42:36.910 | INFO     | __main__:<module>:80 - CSV processing complete.
+2025-01-30 13:42:56.339 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-30 13:42:56.339 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-01-30 13:42:56.353 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data/feedback.xlsx, Word count saved to: example_processed/excel_feedback_github_count.txt
+2025-01-30 13:42:56.354 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-01-30 13:43:18.860 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-30 13:43:18.860 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-30 13:43:18.861 | INFO     | __main__:process_json_file:77 - Processed JSON file: example_data/astros.json, Results saved to: example_processed/json_astronauts_by_craft.txt
+2025-01-30 13:43:18.861 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-30 13:43:43.611 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-30 13:43:43.611 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-01-30 13:43:43.612 | INFO     | __main__:process_text_file:45 - Processed text file: example_data/romeo.txt, Word count saved to: example_processed/text_romeo_word_count.txt
+2025-01-30 13:43:43.612 | INFO     | __main__:<module>:54 - Text processing complete.
