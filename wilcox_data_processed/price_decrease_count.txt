@@ -1,0 +1,1 @@
+Occurrences of negative numbers in column'C': 9

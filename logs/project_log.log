@@ -73,3 +73,23 @@
 2025-01-30 15:56:55.746 | INFO     | __main__:<module>:78 - Starting CSV processing...
 2025-01-30 15:56:55.752 | INFO     | __main__:process_csv_file:71 - Processed CSV file: wilcox_data/titanic_original.csv, Statistics saved to: wilcox_data_processed/titanic_fare_stats.txt
 2025-01-30 15:56:55.752 | INFO     | __main__:<module>:80 - CSV processing complete.
+2025-01-30 16:20:22.056 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-30 16:20:22.056 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-01-30 16:20:22.068 | INFO     | __main__:process_excel_file:54 - Processed Excel file: wilcox_data/changesinprice.xlsx, Word count saved to: wilcox_data_processed/price_decrease_count.txt
+2025-01-30 16:20:22.068 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-01-31 10:12:01.057 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 10:12:01.057 | INFO     | __main__:<module>:67 - Starting Excel processing...
+2025-01-31 10:12:01.069 | INFO     | __main__:process_excel_file:60 - Processed Excel file: wilcox_data/changesinprice.xlsx, Word count saved to: wilcox_data_processed/price_decrease_count.txt
+2025-01-31 10:12:01.070 | INFO     | __main__:<module>:69 - Excel processing complete.
+2025-01-31 10:19:23.919 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 10:19:23.919 | INFO     | __main__:<module>:68 - Starting Excel processing...
+2025-01-31 10:19:23.929 | INFO     | __main__:process_excel_file:61 - Processed Excel file: wilcox_data/changesinprice.xlsx, Word count saved to: wilcox_data_processed/price_decrease_count.txt
+2025-01-31 10:19:23.929 | INFO     | __main__:<module>:70 - Excel processing complete.
+2025-01-31 10:28:15.190 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 10:28:15.190 | INFO     | __main__:<module>:68 - Starting Excel processing...
+2025-01-31 10:32:06.736 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 10:32:06.736 | INFO     | __main__:<module>:68 - Starting Excel processing...
+2025-01-31 10:37:43.229 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 10:37:43.229 | INFO     | __main__:<module>:67 - Starting Excel processing...
+2025-01-31 10:37:43.240 | INFO     | __main__:process_excel_file:60 - Processed Excel file: wilcox_data/changesinprice.xlsx, Negative count svaed to: wilcox_data_processed/price_decrease_count.txt
+2025-01-31 10:37:43.241 | INFO     | __main__:<module>:69 - Excel processing complete.
