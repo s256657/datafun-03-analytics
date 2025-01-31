@@ -93,3 +93,35 @@
 2025-01-31 10:37:43.229 | INFO     | __main__:<module>:67 - Starting Excel processing...
 2025-01-31 10:37:43.240 | INFO     | __main__:process_excel_file:60 - Processed Excel file: wilcox_data/changesinprice.xlsx, Negative count svaed to: wilcox_data_processed/price_decrease_count.txt
 2025-01-31 10:37:43.241 | INFO     | __main__:<module>:69 - Excel processing complete.
+2025-01-31 10:41:47.640 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 10:41:47.640 | INFO     | __main__:<module>:60 - Starting Excel processing...
+2025-01-31 10:41:47.652 | INFO     | __main__:process_excel_file:53 - Processed Excel file: wilcox_data/changesinprice.xlsx, Negative count svaed to: wilcox_data_processed/price_decrease_count.txt
+2025-01-31 10:41:47.652 | INFO     | __main__:<module>:62 - Excel processing complete.
+2025-01-31 11:36:28.581 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 11:36:28.581 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 11:36:28.751 | INFO     | __main__:process_json_file:67 - Processed JSON file: wilcox_data/meteoritelandings.json, Results saved to: wilcox_data_processed/found_meteorite_landings.txt
+2025-01-31 11:36:28.751 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 11:38:06.592 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 11:38:06.592 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 11:38:06.765 | INFO     | __main__:process_json_file:67 - Processed JSON file: wilcox_data/meteoritelandings.json, Results saved to: wilcox_data_processed/found_meteorite_landings.txt
+2025-01-31 11:38:06.765 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 11:42:52.452 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 11:42:52.453 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 11:42:52.858 | INFO     | __main__:process_json_file:67 - Processed JSON file: wilcox_data/meteoritelandings.json, Results saved to: wilcox_data_processed/found_meteorite_landings.txt
+2025-01-31 11:42:52.858 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 11:46:14.524 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 11:46:14.525 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 11:46:14.935 | INFO     | __main__:process_json_file:67 - Processed JSON file: wilcox_data/meteoritelandings.json, Results saved to: wilcox_data_processed/found_meteorite_landings.txt
+2025-01-31 11:46:14.935 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 11:47:14.182 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 11:47:14.182 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 11:47:14.604 | INFO     | __main__:process_json_file:67 - Processed JSON file: wilcox_data/meteoritelandings.json, Results saved to: wilcox_data_processed/found_meteorite_landings.txt
+2025-01-31 11:47:14.604 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 11:48:12.047 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 11:48:12.047 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 11:48:12.455 | INFO     | __main__:process_json_file:67 - Processed JSON file: wilcox_data/meteoritelandings.json, Results saved to: wilcox_data_processed/found_meteorite_landings.txt
+2025-01-31 11:48:12.455 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 11:49:21.292 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 11:49:21.293 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 11:49:21.680 | INFO     | __main__:process_json_file:67 - Processed JSON file: wilcox_data/meteoritelandings.json, Results saved to: wilcox_data_processed/found_meteorite_landings.txt
+2025-01-31 11:49:21.680 | INFO     | __main__:<module>:76 - JSON processing complete.

@@ -40,13 +40,6 @@ def count_number_in_column(file_path: pathlib.Path, column_letter: str) -> int:
     except Exception as e:
         logger.error(f"Error reading Excel file: {e}")
         return 0
-    
-def count_negative_numbers (numbers):
-    count = 0
-    for num in numbers:
-        if num < 0:
-            count += 1
-    return count 
 
 def process_excel_file():
     """Read an Excel file, count occurrences of negative numbers in a specific column, and save the result."""
