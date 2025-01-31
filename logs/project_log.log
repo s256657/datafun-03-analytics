@@ -125,3 +125,23 @@
 2025-01-31 11:49:21.293 | INFO     | __main__:<module>:74 - Starting JSON processing...
 2025-01-31 11:49:21.680 | INFO     | __main__:process_json_file:67 - Processed JSON file: wilcox_data/meteoritelandings.json, Results saved to: wilcox_data_processed/found_meteorite_landings.txt
 2025-01-31 11:49:21.680 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 11:57:36.075 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 11:57:36.076 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-01-31 11:57:36.090 | INFO     | __main__:process_text_file:45 - Processed text file: wilcox_data/solar_flares.txt, Word count saved to: wilcox_data_processed/month_flare_count.txt
+2025-01-31 11:57:36.091 | INFO     | __main__:<module>:54 - Text processing complete.
+2025-01-31 11:58:04.978 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 11:58:04.978 | INFO     | __main__:<module>:52 - Starting text processing...
+2025-01-31 11:58:04.994 | INFO     | __main__:process_text_file:45 - Processed text file: wilcox_data/solar_flares.txt, Word count saved to: wilcox_data_processed/month_flare_count.txt
+2025-01-31 11:58:04.995 | INFO     | __main__:<module>:54 - Text processing complete.
+2025-01-31 12:05:56.472 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 12:05:56.472 | INFO     | __main__:<module>:54 - Starting text processing...
+2025-01-31 12:05:57.031 | INFO     | __main__:process_text_file:47 - Processed text file: wilcox_data/solar_flares.txt, Word count saved to: wilcox_data_processed/month_flare_count.txt
+2025-01-31 12:05:57.031 | INFO     | __main__:<module>:56 - Text processing complete.
+2025-01-31 12:06:34.769 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 12:06:34.770 | INFO     | __main__:<module>:54 - Starting text processing...
+2025-01-31 12:06:35.302 | INFO     | __main__:process_text_file:47 - Processed text file: wilcox_data/solar_flares.txt, Word count saved to: wilcox_data_processed/month_flare_count.txt
+2025-01-31 12:06:35.302 | INFO     | __main__:<module>:56 - Text processing complete.
+2025-01-31 12:10:18.102 | INFO     | util_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-01-31 12:10:18.102 | INFO     | __main__:<module>:54 - Starting text processing...
+2025-01-31 12:10:18.224 | INFO     | __main__:process_text_file:47 - Processed text file: wilcox_data/solar_flares.txt, Word count saved to: wilcox_data_processed/month_flare_count.txt
+2025-01-31 12:10:18.225 | INFO     | __main__:<module>:56 - Text processing complete.
